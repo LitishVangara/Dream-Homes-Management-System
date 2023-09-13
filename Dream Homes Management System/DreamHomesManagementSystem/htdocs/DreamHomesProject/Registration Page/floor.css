@@ -1,0 +1,16 @@
+body, html {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+body {
+    background-image: url(pexels-francesco-ungaro-281260.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+h1 {
+    color: azure;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.png">
+    <title>Dream Homes Service Registration</title>
+    <style>
+         body, html {
+         padding: 0px;
+         margin: 0px;
+         height: 100%;
+         font-family: Arial, Helvetica, sans-serif;
+         text-align: center;
+         }
+    
+         .bg-img {
+         background-image: url("pexels-eusebiu-soica-13840288.jpg");
+         height: 100%;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         position: relative;
+         }
+    
+         .container {
+         background-color: #4d4646;
+         opacity: 0.6;
+         height: 40%;
+         width: 25%;
+         border: 5px solid rgb(255, 255, 255);
+         border-radius: 25px;
+         padding: 10px;
+         }
+    
+         .btn {
+         background-color: rgb(255, 255, 255);
+         border-radius: 25px;
+         color: #0905f7;
+         font-size: x-large;
+         font-weight: bolder;
+         padding: 16px 20px;
+         border: none;
+         cursor: pointer;
+         width: 100%;
+         opacity: 0.9;
+         }
+    
+         .btn:hover {
+         opacity: 1;
+         }
+    
+         .colore {
+         color: #f7f705;
+         }
+    </style>
+</head>
+<body>
+    <center>
+        <div class="bg-img">
+          <br><br><br><br><br><br>
+            <form action="mental.php" method="POST" class="container">
+              <br><br>
+                <h1 class="colore">Service Registration</h1>
+                <br><br><br>
+                <b class="colore">Client Number : </b>
+                <br><br>
+                <input type="number" id="ClientNo:" name="Clientno"> 
+                <br><br><br>
+                <b class="colore">Branch Number : </b>
+                <br><br>
+                <input type="number" id="BranchNo:" name="Branchno"> 
+                <br><br><br>
+                <b class="colore">Staff Number : </b>
+                <br><br>
+                <input type="number" id="StaffNo:" name="Staffno"> 
+                <br><br><br>
+                <b class="colore">Date Joined : </b>
+                <br><br>
+                <input type="Date" id="DateJoined:" name="Datejoined"> 
+                <br><br><br><br><br>
+                <input type="Submit" value="Submit" class="btn"> 
+                <br><br><br><br><br>
+            </form>
+            <br><br><br><br><br><br>
+        </div>
+    </center>
+</body>
+</html>

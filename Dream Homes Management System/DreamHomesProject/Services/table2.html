@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.png">
+    <title>Dream Homes Staff</title>
+    <style>
+    body, html {
+        padding: 0px;
+        margin: 0px;
+        height: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    
+    .bg-img {
+        background-image: url("pexels-pixabay-159027.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .container {
+        background-color: #4d4646;
+        opacity: 0.6;
+        height: 40%;
+        width: 25%;
+        border: 5px solid blue;
+        border-radius: 25px;
+        padding: 10px;
+    }
+    
+    .btn {
+        background-color: #f7f705;
+        border-radius: 25px;
+        color: #0905f7;
+        font-size: x-large;
+        font-weight: bolder;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+    }
+    
+    .btn:hover {
+        opacity: 1;
+    }
+    
+    .colore {
+        color: #f7f705;
+    }
+    </style>
+</head>
+<body>
+    <center>
+        <div class="bg-img"><br><br><br><br>
+            <form action="syntax.php" method="POST" class="container">
+                <br>
+                <h1 class="colore">Staff</h1>
+                <br>
+                <b class="colore">Staff Number : </b><br>
+                <input type="text" id="Staff number :" name="Staffnumber"> <br> <br><br>
+                <b class="colore">First Name : </b><br>
+                <input type="text" id="First name :" name="Firstname"> <br> <br><br>
+                <b class="colore">Last Name : </b><br>
+                <input type="text" id="Last name :" name="Lastname"> <br> <br><br>
+                <b class="colore">Oposition : </b><br>
+                <input type="text" id="oposition :" name="Oposition"> <br> <br><br>
+                <b class="colore">Gender : </b><br>
+                <input type="radio" id="Gender" name="Gender" value="m"/><b class="colore">Male</b>
+                <input type="radio" id="Gender" name="Gender" value="f"/><b class="colore">Female</b> <br> <br><br>
+                <b class="colore">DOB : </b><br>
+                <input type="Date" id="DOB :" name="DOB"> <br> <br><br>
+                <b class="colore">Salary : </b><br>
+                <input type="text" id="Salary :" name="Salary"> <br> <br><br>
+                <b class="colore">Branch Number : </b><br>
+                <input type="text" id="Branch number :" name="Branchnumber"> <br> <br><br>
+                <input type="Submit" value="Submit" class="btn"> <br> <br><br>
+                <br>
+            </form>
+            <br><br>
+        </div>
+    </center>
+</body>
+</html>

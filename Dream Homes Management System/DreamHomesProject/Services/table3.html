@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.png">
+    <title>Dream Homes Private Owner</title>
+    <style>
+         body, html {
+         padding: 0px;
+         margin: 0px;
+         height: 100%;
+         font-family: Arial, Helvetica, sans-serif;
+         text-align: center;
+         }
+    
+         .bg-img {
+         background-image: url("pexels-anton-atanasov-735812.jpg");
+         height: 100%;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         position: relative;
+         }
+    
+         .container {
+         background-color: #4d4646;
+         opacity: 0.6;
+         height: 40%;
+         width: 25%;
+         border: 5px solid blue;
+         border-radius: 25px;
+         padding: 10px;
+         }
+    
+         .btn {
+         background-color: rgb(255, 238, 0);
+         border-radius: 25px;
+         color: #0905f7;
+         font-size: x-large;
+         font-weight: bolder;
+         padding: 16px 20px;
+         border: none;
+         cursor: pointer;
+         width: 100%;
+         opacity: 0.9;
+         }
+    
+         .btn:hover {
+         opacity: 1;
+         }
+    
+         .colore {
+         color: #f7f705;
+         }
+    </style>
+</head>
+<body>
+    <center>
+          <div class="bg-img">
+                <br><br><br><br><br>
+                <form action="center.php" method="POST" class="container">
+                    <br><br>
+                    <h1 class="colore">Private Owner</h1>
+                    <br><br>
+                    <b class="colore">Owner Number : </b><br><br>
+                    <input type="text" id="Owner number :" name="Ownernumber"> <br> <br> <br>
+                    <b class="colore">First Name : </b><br><br>
+                    <input type="text" id="First name :" name="Firstname"> <br> <br> <br>
+                    <b class="colore">Last Name : </b><br><br>
+                    <input type="text" id="Last name :" name="Lastname"> <br> <br><br>
+                    <b class="colore">Address : </b><br><br>
+                    <input type="text" id="Address :" name="Address">  <br> <br><br>
+                    <b class="colore">Telephone Number : </b><br><br>
+                    <input type="text" id="Telephonenumber" name="Telephonenumber">  <br> <br><br><br>
+                    <input type="Submit" value="Submit" class="btn">
+                    <br><br><br><br>
+               </form>
+               <br><br><br><br><br>
+          </div>
+    </center>
+</body>
+</html>
